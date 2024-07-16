@@ -46,7 +46,7 @@ const App = () => {
   const [gameActive, setGameActive] = useState(true);
   const [activePowerUp, setActivePowerUp] = useState<PowerUp['type'] | null>(null);
   const gravity = useRef(0.5);
-  const birdJump = useRef(-10);
+  const birdJump = useRef(-15);  //bird jump height
   const passedPipeIds = useRef(new Set());
 
   useEffect(() => {
