@@ -18,10 +18,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bryokn.Flapocalypse",
+      "enableProguardInReleaseBuilds": true,
+      "enableSplitApks": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8ea6b887-c421-417f-a7a6-764f71658f97"
+      }
     }
   }
 }
